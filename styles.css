@@ -13,6 +13,7 @@ header {
   width: 100%;
   /*background: url("http://www.placecage.com/200/300");*/
   background: blue;
+
   content: '';
   clear: both;
 
@@ -57,11 +58,59 @@ header {
   display: inline-block;
 }
 h1 {
-  padding-top: 62px;
+  padding-top: 86px;
 
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 102px;
   text-align: center;
+  font-weight: 200;
+  letter-spacing: -2.6px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 0px;
+}
 
+
+main {
+  display: block;
+  height: 400px;
+  width: 980px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: tan;
+}
+.essay {
+  display: inline-block;
+  width: 620px;
+  margin: 0;
+  padding-top: 38px;
+  background-color: purple;
+}
+h2 {
+  margin: 8px;
+  font-size: 62px;
+  font-weight: 200;
+  line-height: 1.1;
+  letter-spacing: .5;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  margin: 5px, 0;
+}
+.quotation {
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: grey;
+  line-height: 2;
+  padding-left: 30px;
+  border-left: 2px solid blue;
+  margin-left: 20px;
 }
