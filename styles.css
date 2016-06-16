@@ -164,6 +164,37 @@ h2 {
   margin-left: 10px;
   margin-bottom: 25px;
 }
+.social-buttons {
+  display: block;
+  width: 100%;
+  background: pink;
+  padding-left: 10px;
+}
+ul button {
+  display: inline-block;
+
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+
+  border: 0;
+  box-shadow: 0;
+  padding: 0;
+  background: gray;
+  margin-right: 8px;
+}
+ul label {
+  display: inline-block;
+  padding: 0px 12px 6px 12px;
+}
+ul .button-art {
+  font-size: 18px;
+  display: inline-block;
+  width: 33px;
+  background: blue;
+  padding: 6px 7px 6px 7px;
+}
 .sidebar {
   display: block;
   width: 360px;
@@ -182,6 +213,7 @@ h2 {
   width: 84px;
 }
 .sidebar p {
+  font-family: 'Open Sans', 'sans-serif';
   text-align: center;
   font-size: 16px;
   margin-top: 12px;
