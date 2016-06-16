@@ -6,6 +6,9 @@
 body {
   font-family: Oswald;
 }
+
+/*HEADER WORK*/
+
 header {
   display: block;
   position: relative;
@@ -29,6 +32,8 @@ header {
   height: 45px;
   width: 45px;
   border-radius: 50%;
+  /*image-orientation: from-image;
+  image-orientation: flip;*/
 }
 .logo p {
   position: absolute;
@@ -76,10 +81,11 @@ h5 {
   margin-top: 0px;
 }
 
+/*BODY WORK */
 
 main {
   display: block;
-  height: 400px;
+  /*height: 400px;*/
   width: 980px;
   margin: auto;
   margin-top: 20px;
@@ -146,4 +152,48 @@ p {
 }
 .sidebar p {
   text-align: center;
+}
+
+/*FOOTER WORK */
+
+footer {
+  display: block;
+  border-top: 2px solid gray;
+  margin-top: 40px;
+}
+footer h2 {
+  text-align: center;
+}
+.article-links {
+  display: block;
+}
+.next-article {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+  width: 25%;
+  height: 25vw;
+  /*height: 400px;*/
+  max-width: 400px;
+
+  float: left;
+}
+.next-article p {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+}
+.art1 {
+  background: url("https://cdn.pastemagazine.com/www/blogs/awesome_of_the_day/timheidecker.png");
+}
+.art2 {
+  background: url("https://pbs.twimg.com/profile_images/378800000741429410/bfbee8629dea568a18943ac3f4cb8ede_400x400.jpeg");
+}
+.art3 {
+  background: url("http://65.media.tumblr.com/103e40148f5b1cc1b23fe61077489d18/tumblr_inline_nsom1sO2Mf1qa87yl_500.jpg");
+}
+.art4 {
+  background: url("https://caltventertainment.files.wordpress.com/2014/04/tumblr_kx7028huko1qafdxeo1_500.gif");
 }
