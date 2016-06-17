@@ -14,8 +14,10 @@ header {
   position: relative;
   height: 523px;
   width: 100%;
-  /*background: url("http://www.placecage.com/200/300");*/
-  background: blue;
+  background-image: url("http://a.espncdn.com/photo/2014/0503/as_surf_rothman_mckenna_2048.jpg");
+  /*background-color: #21B8D9;*/
+  background-color: SteelBlue;
+  background-blend-mode: multiply;
 
   content: '';
   clear: both;
@@ -29,30 +31,33 @@ header {
 }
 .logo img {
   display: inline-block;
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
+  height: 51px;
+  width: 51px;
+  /*border-radius: 50%;*/
+  padding-bottom: 6px;
 }
 .logo p {
   position: absolute;
   display: inline-block;
-  padding-left: 12.5px;
+  padding-left: 7px;
 
   font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-size: 15.8px;
-  top: -5px;
+  font-weight: bold;
+  color: #093A5B;
+  font-size: 17px;
+  letter-spacing: -.045em;
+  top: -7px;
 }
 .infobar {
   display: inline-block;
   width: 320px;
   margin-top: 18px;
   float: right;
-  background-color: gray;
+  color: #093A5B;
   font-size: 18px;
 }
 .infobar a {
-  color: black;
+  color: #093A5B;
   text-decoration: none;
   display: inline-block;
   margin: 0 10px;
@@ -65,6 +70,7 @@ form #search {
   display: inline-block;
   width: 140px;
   height: 22px;
+  color: #093A5B;
   font-family: 'Open Sans', 'sans-serif';
   font-size: 14px;
   padding-top: 6px;
@@ -77,6 +83,7 @@ form #search:focus {
 }
 form .search-icon {
   font-size: 14px;
+  color: #093A5B;
   display: inline-block;
   width: 16px;
   vertical-align: middle;
@@ -87,7 +94,7 @@ form .search-icon {
   vertical-align: middle;
 }
 h1 {
-  padding-top: 82px;
+  padding-top: 76px;
 
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -99,6 +106,7 @@ h1 {
   margin-bottom: 0;
 }
 h5 {
+  color: #093A5B;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 15px;
@@ -113,26 +121,25 @@ main {
   width: 980px;
   margin: auto;
   margin-top: 20px;
-  background-color: tan;
+  background: white;
 }
 .essay {
   display: inline-block;
   width: 620px;
   margin: 0 0 12px 0;
   padding-top: 38px;
-  background-color: purple;
 }
 .publish-info {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
+  color: #B2BFC9;
   margin: 0;
-  background: yellow;
 }
 .publish-info a {
   display: inline-block;
   font-size: 12.5px;
-  color: grey;
+  color: #2F7CBA;
   text-decoration: none;
   margin: 10px 2px 20px 2px;
 }
@@ -153,6 +160,7 @@ main {
   text-decoration: underline;
 }
 h2 {
+  color: #083452;
   margin-top: 6px;
   margin-left: 4px;
   margin-bottom: 0px;
@@ -169,22 +177,23 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   line-height: 1.625em;
+  color: #717B80;
   padding-left: 2px;
   padding-bottom: 8px;
   letter-spacing: -.05em;
 }
 .main-text-link {
-
+  color: #0C6AB1;
 }
 .quotation {
   font-size: 28px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   letter-spacing: -.026em;
-  color: grey;
+  color: #0C6AB1;
   line-height: 2;
   padding-left: 18px;
-  border-left: 2px solid blue;
+  border-left: 2px solid #B2BFC9;
   margin-left: 10px;
   margin-bottom: 25px;
 }
@@ -195,7 +204,6 @@ h2 {
 .social-buttons {
   display: block;
   width: 100%;
-  background: pink;
   padding-left: 6px;
 }
 ul button {
@@ -209,7 +217,7 @@ ul button {
   border: 0;
   box-shadow: 0;
   padding: 0;
-  background: gray;
+  background: #A3B3BF;
   margin-right: 7px;
   margin-top: 0px;
 }
@@ -221,7 +229,7 @@ ul .button-art {
   font-size: 18px;
   display: inline-block;
   width: 33px;
-  background: blue;
+  background: #5E686F;
   padding: 5px 7px 7px 7px;
 }
 .sidebar {
@@ -232,6 +240,7 @@ ul .button-art {
 }
 .sidebar a {
   text-decoration: none;
+  color: #0C6AB1;
 }
 .sidebar .author{
   display: block;
@@ -239,6 +248,8 @@ ul .button-art {
   margin-top: 62px;
   height: 84px;
   width: 84px;
+  max-height: 84px;
+  max-width: 84px;
 }
 .sidebar p {
   font-family: 'Open Sans', 'sans-serif';
@@ -255,6 +266,7 @@ ul .button-art {
 .author-social a {
   font-family: 'Open Sans', 'sans-serif';
   font-size: 13px;
+  color: #B2BFC9;
   vertical-align: top;
   margin: 0 auto;
   padding: 0 6px 0 6px;
@@ -262,17 +274,20 @@ ul .button-art {
 .advertisement {
   display: block;
   width: auto;
-
+  margin-top: 44px;
 }
 .advertisement img {
-  margin-top: 44px;
+
   margin-bottom: 0px;
   height: 300px;
   width: 100%;
+  opacity: .5;
+
 }
 .advertisement p {
   font-size: 13px;
   text-decoration: underline;
+  color: #B2BFC9;
   margin: 3px 1px 0px 3px;
   display: inline-block;
   float: right;
@@ -282,21 +297,24 @@ h6 {
   padding-top: 24px;
   margin-bottom: 0;
   font-size: 18px;
+  color: #0C6AB1;
 }
 .sidebar .sidebar-p {
   margin: 4px 2px 0px 2px;
   text-align: left;
   font-size: 13.5px;
   line-height: 1.8em;
+  color: #B2BFC9;
 }
 .sidebar .sidebar-p a {
   text-decoration: underline;
+  color: #B2BFC9;
 }
 /*FOOTER WORK */
 
 footer {
   display: block;
-  border-top: 1px solid gray;
+  border-top: 1px solid #B2BFC9;
   margin-top: 40px;
 }
 footer h2 {
@@ -323,37 +341,47 @@ footer h2 {
   display: inline-block;
   position: absolute;
   font-size: 30px;
+  color: #0b1f2d;
   width: 78%;
   margin: 0px 0px 13px 16px;
   bottom: 0px;
   line-height: 1.2em;
 }
 .art1 {
-  background: url("https://cdn.pastemagazine.com/www/blogs/awesome_of_the_day/timheidecker.png");
+  background-image: url("http://i.imgur.com/wFm7N.png");
+  background-color: SteelBlue;
+  background-blend-mode: multiply;
+
 }
 .art2 {
   background: url("https://pbs.twimg.com/profile_images/378800000741429410/bfbee8629dea568a18943ac3f4cb8ede_400x400.jpeg");
+  background-color: SteelBlue;
+  background-blend-mode: multiply;
 }
 .art3 {
   background: url("http://65.media.tumblr.com/103e40148f5b1cc1b23fe61077489d18/tumblr_inline_nsom1sO2Mf1qa87yl_500.jpg");
+  background-color: SteelBlue;
+  background-blend-mode: multiply;
 }
 .art4 {
   background: url("https://caltventertainment.files.wordpress.com/2014/04/tumblr_kx7028huko1qafdxeo1_500.gif");
+  background-color: SteelBlue;
+  background-blend-mode: multiply;
 }
 .foot-nav {
   display: block;
   margin: 0;
   width: 100%;
   padding-bottom: 5px;
-  background: tan;
+  background: #083452;
   font-family: 'Open Sans', 'sans-serif';
   font-size: 13.3px;
+  color: #889DAC;
 }
 .copyright {
   display: inline-block;
   margin-left: 150px;
   margin-top: 14px;
-  background: white;
 }
 .copyright img {
   width: 70px;
@@ -368,6 +396,7 @@ footer h2 {
 .foot-nav a {
   text-align: center;
   text-decoration: none;
+  color: #889DAC;
   border-right: 1px solid gray;
   padding: 0px 6px 0px 6px;
 }
