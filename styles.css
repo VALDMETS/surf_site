@@ -32,8 +32,6 @@ header {
   height: 45px;
   width: 45px;
   border-radius: 50%;
-  /*image-orientation: from-image;
-  image-orientation: flip;*/
 }
 .logo p {
   position: absolute;
@@ -61,6 +59,23 @@ header {
 }
 .infobar form {
   display: inline-block;
+}
+.search {
+  display: inline-block;
+  width: auto;
+}
+.searchbar {
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+.search-icon {
+  font-size: 10px;
+  display: inline-block;
+  width: 14px;
 }
 h1 {
   padding-top: 82px;
@@ -205,7 +220,6 @@ ul .button-art {
   width: 360px;
   float: right;
   padding-left: 80px;
-  /*background-color: orange;*/
 }
 .sidebar a {
   text-decoration: none;
@@ -254,7 +268,21 @@ ul .button-art {
   display: inline-block;
   float: right;
 }
-
+h6 {
+  padding-left: 1px;
+  padding-top: 24px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.sidebar .sidebar-p {
+  margin: 4px 2px 0px 2px;
+  text-align: left;
+  font-size: 13.5px;
+  line-height: 1.8em;
+}
+.sidebar .sidebar-p a {
+  text-decoration: underline;
+}
 /*FOOTER WORK */
 
 footer {
@@ -285,7 +313,11 @@ footer h2 {
 .next-article p {
   display: inline-block;
   position: absolute;
-  bottom: 10px;
+  font-size: 30px;
+  width: 78%;
+  margin: 0px 0px 13px 16px;
+  bottom: 0px;
+  line-height: 1.2em;
 }
 .art1 {
   background: url("https://cdn.pastemagazine.com/www/blogs/awesome_of_the_day/timheidecker.png");
@@ -298,4 +330,39 @@ footer h2 {
 }
 .art4 {
   background: url("https://caltventertainment.files.wordpress.com/2014/04/tumblr_kx7028huko1qafdxeo1_500.gif");
+}
+.foot-nav {
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 5px;
+  background: tan;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 13.3px;
+}
+.copyright {
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 14px;
+  background: white;
+}
+.copyright img {
+  width: 70px;
+  vertical-align: middle;
+}
+.foot-nav ol {
+  display: inline-block;
+  float: right;
+  margin-right: 12%;
+  margin-top: 37px;
+}
+.foot-nav a {
+  text-align: center;
+  text-decoration: none;
+  border-right: 1px solid gray;
+  padding: 0px 6px 0px 6px;
+}
+.foot-nav .final-nav
+{
+  border-right: 0px;
 }
