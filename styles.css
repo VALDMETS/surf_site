@@ -14,6 +14,7 @@ header {
   position: relative;
   height: 523px;
   width: 100%;
+  margin: 0 auto;
   background-image: url("http://a.espncdn.com/photo/2014/0503/as_surf_rothman_mckenna_2048.jpg");
   /*background-color: #21B8D9;*/
   background-color: SteelBlue;
@@ -21,6 +22,8 @@ header {
 
   content: '';
   clear: both;
+
+  max-width: 1380px;
 
 }
 .logo {
@@ -123,6 +126,8 @@ main {
   margin: auto;
   margin-top: 20px;
   background: white;
+
+  max-width: 1380px;
 }
 .essay {
   display: inline-block;
@@ -316,7 +321,8 @@ h6 {
 footer {
   display: block;
   border-top: 1px solid #B2BFC9;
-  margin-top: 40px;
+  margin: 40px auto 0px auto;
+  max-width: 1380px;
 }
 footer h2 {
   margin-top: 34px;
@@ -440,3 +446,118 @@ a:visited {
 }
 
 /* REFLEXIVE YIKES */
+
+@media (max-width: 1020px) {
+  header {
+    height: 300px;
+    content: '';
+    clear: both;
+  }
+  h1 {
+    margin: 0px;
+    font-size: 40px;
+    padding-top: 125px;
+  }
+  .logo {
+    display: block;
+    position: absolute;
+    margin: 70px auto 0 auto;
+    width: 100%;
+  }
+  .logo img {
+    display: block;
+    float: right;
+    width: 20%;
+    margin: 0 40%;
+  }
+  .logo p {
+    position: absolute;
+    font-size: 0px;
+  }
+  .infobar {
+
+  }
+  main {
+    width: 80%;
+    margin: auto;
+  }
+  .essay {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .essay p {
+    width: 100%;
+  }
+  .publish-info {
+    height: 0px;
+  }
+  .essay .author {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  .publish-info a {
+    font-size: 0;
+    margin: 0;
+  }
+  .publish-info span {
+    font-size: 0;
+  }
+  button {
+    width: 33px;
+    height: 30px;
+    overflow: hidden;
+  }
+  button label {
+    font-size: 0;
+    width: 0;
+  }
+  .quotation {
+    line-height: 1.2em;
+  }
+  .sidebar {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  .sidebar .author-social {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+  .advertisement {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  h6 {
+    font-size: 0;
+  }
+  .sidebar .sidebar-p {
+    font-size: 0;
+  }
+  .sidebar-p a {
+    font-size: 0;
+  }
+  footer h2 {
+    font-size: 40px;
+  }
+  footer {
+    border: none;
+  }
+  .copyright {
+    margin: 0;
+  }
+  .next-article {
+    margin: 0 auto;
+    padding: 0;
+    color: #0b1f2d;
+
+    width: 90%;
+    height: 25.5vw;
+    max-width: 400px;
+
+  }
+}
