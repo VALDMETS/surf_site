@@ -1,4 +1,4 @@
-# surf_site
+# Surf & Paddle Co
 
 Using pixel perfect, this exercise was an exploration on HTML/CSS. 
 
